@@ -1,0 +1,29 @@
+title: Chapman-prez
+author: CBC Girard
+version: 1.0.0
+quarto-required: ">=1.4.0"
+
+mainfont: Futura Medium, Futura, Helvetica, Arial, sans
+strip-comments: true
+
+contributes:
+  formats:
+    common:
+      toc: false
+      auto-animate: true
+      embed-resources: true
+      code-copy: true
+      multiplex: true 
+      output-location: column-fragment
+      center: false
+      margin: 0.2
+      height: 800
+      progress: true
+    revealjs:
+      theme: [pres.scss, pres-light.scss]
+      logo: ChapmanFooter-lite.svg
+      style: [pres.scss, pres-light.scss]
+    revealjs-dark:
+      theme: [pres.scss, pres-dark.scss]
+      logo: ChapmanFooter-dark.svg
+      style: [pres.scss, pres-dark.scss]

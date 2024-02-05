@@ -1,0 +1,20 @@
+
+/*-- scss:defaults --*/
+$chapmanRed: #a50034 !default;
+$pantherBlack: #231F20 !default;
+$grove: #00966C !default;
+$pacific: #009CA6 !default;
+$pillar: #6E6259 !default;
+$sand: #DDCBA4 !default;
+
+$pillar-75: lighten($pillar, 75%) !default;
+$pillar-50: lighten($pillar, 50%) !default;
+$pillar-25: lighten($pillar, 25%) !default;
+
+$sand-75: lighten($sand, 75%) !default;
+$sand-50: lighten($sand, 50%) !default;
+$sand-25: lighten($sand, 25%) !default;
+
+
+
+$font-family-sans-serif: "Futura Medium", Futura, Helvetica, Arial, sans-serif, sans;

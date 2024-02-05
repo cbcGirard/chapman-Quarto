@@ -1,0 +1,47 @@
+// @import "./chapman.scss";
+@import "./pres.scss";
+
+/*-- scss:defaults --*/
+$xcellBlue: #19232d !default;
+// Customize the light and dark text colors for use in our color contrast function.
+$color-contrast-dark:      $pantherBlack !default;
+
+
+$body-bg: #19232d !default;
+$body-color: lighten($sand,50%) !default;
+$link-color: #afcfff !default;
+$callout-color-note: $pacific;
+$callout-color-tip: $grove;
+
+// scss-docs-start theme-color-variables
+$primary:       $chapmanRed !default;
+$secondary:     lighten($pillar, 50%) !default;
+// $success:       $green !default;
+// $info:          $cyan !default;
+// $warning:       $yellow !default;
+// $danger:        $red !default;
+$light:         lighten($pillar, 90%) !default;
+$dark:          $pillar !default;
+// scss-docs-end theme-color-variables
+
+$quarto-body-color: $body-color !default;
+
+/*-- scss:rules --*/
+.reveal h1, h2 {
+    width: 100%;
+    // padding: 0.25em 20%;
+    // margin: 0% -20%;
+}
+
+.reveal h1 {
+    background-color: $grove;
+    color: $pantherBlack;
+}
+
+.reveal h2 {
+    // position:fixed;
+    // top: 0px;
+    background-color: $chapmanRed;
+    color: $light;
+}
+
