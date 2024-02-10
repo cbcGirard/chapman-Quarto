@@ -1,0 +1,18 @@
+@import '../../chapmanStyles/chapman.scss';
+/*-- scss:defaults --*/
+
+/* TODO: Customize html appearance by setting SCSS variables */
+/* See https://quarto.org/docs/output-formats/html-themes.html#theme-options */
+
+/*-- scss:rules --*/
+
+/* TODO: Provide custom CSS rules */
+div.callout.callout-hint {
+    border-left-color: $pillar;
+}
+
+div.callout.callout-style-default.callout-hint>.callout-header {
+    background-color:  rgba($pillar, 25%);
+    color: $pantherBlack;
+    opacity: 100%;
+}

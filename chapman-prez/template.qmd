@@ -15,3 +15,12 @@ date: last-modified
 
 You can learn more about controlling the appearance of RevealJS output here: <https://quarto.org/docs/presentations/revealjs/>
 
+::: header
+
+{{< fa calculator >}}
+
+:::
+
+
+## Slide 1
+[test link](https://quarto.org/docs/presentations/revealjs/)

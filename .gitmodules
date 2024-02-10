@@ -1,0 +1,6 @@
+[submodule "chapman-prez/chapmanStyles"]
+	path = chapman-prez/chapmanStyles
+	url = git@github.com:cbcGirard/chapmanStyles.git
+[submodule "chapman-manual/chapmanStyles"]
+	path = chapman-manual/chapmanStyles
+	url = git@github.com:cbcGirard/chapmanStyles.git

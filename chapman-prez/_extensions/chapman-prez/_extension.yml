@@ -16,9 +16,13 @@ contributes:
       multiplex: true 
       output-location: column-fragment
       center: false
-      margin: 0.2
+      margin: 0
       height: 800
       progress: true
+      filters: 
+        - reveal-header
+        - fontawesome
+
     revealjs:
       theme: [pres.scss, pres-light.scss]
       logo: ChapmanFooter-lite.svg

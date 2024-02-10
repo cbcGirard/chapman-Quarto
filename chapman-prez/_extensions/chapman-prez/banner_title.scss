@@ -1,0 +1,29 @@
+/*-- scss:defaults --*/
+
+/* TODO: Customize presentation appearance by setting SCSS variables */
+/* See https://quarto.org/docs/presentations/revealjs/themes.html#customizing-themes */
+
+
+
+// modified from shafee's answer https://stackoverflow.com/a/75963682
+/*-- scss:rules --*/
+
+.table {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*-- scss:rules --*/
+
+section.slide h2, section.slide h1 {
+    // color: white !important;
+    // background-color: dimgrey !important;
+    width: 200vw;
+    position: relative;
+    left: -20vw;
+    padding-left: 20vw;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+  }
+  

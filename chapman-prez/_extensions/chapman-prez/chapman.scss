@@ -18,3 +18,29 @@ $sand-25: lighten($sand, 25%) !default;
 
 
 $font-family-sans-serif: "Futura Medium", Futura, Helvetica, Arial, sans-serif, sans;
+
+
+
+/*-- scss:rules --*/
+
+/* TODO: Provide custom CSS rules */
+
+.table {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.callout.callout {
+    // border-left-color: #a50034c0;
+    border-left-color: rgba($chapmanRed, 75%);
+    padding: 0;
+    opacity: 100%;
+  }
+  
+.callout.callout-style-simple>.callout-header {
+    background:  $chapmanRed;
+    color: $sand-50;
+    padding: 0.5rem 1rem;
+    opacity: 100%;
+}
