@@ -21,6 +21,8 @@ contributes:
         # - date
         # - abstract
         # - keywords
+      format-resources:
+        - chapman.scss
   filters: [custom-callouts]
       
     
