@@ -15,15 +15,42 @@
 }
 
 /*-- scss:rules --*/
+.reveal .slides{
+    top: 0 !important;
+    padding-top: 0px !important;
+}
+
+.reveal .slides .slide {
+    top: 0 !important;
+    padding-top: 0px !important;
+}
 
 section.slide h2, section.slide h1 {
     // color: white !important;
     // background-color: dimgrey !important;
-    width: 200vw;
+    width: 200vw !important; 
     position: relative;
-    left: -20vw;
-    padding-left: 20vw;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
+    left: -100vw !important;
+    padding-left: 100vw !important;
+    // padding-right: 100vw !important;
   }
+
+.reveal h2 {
+    padding-top: 0.375em;
+    padding-bottom: 0.375em;
+}
+
+.reveal h1 {
+    padding-top: .5em !important;
+    padding-bottom: .5em !important;
+}
   
+  /* Slide-specific vertical centering override */
+.reveal .slides section:has(> h2) {
+	top: 0 !important;
+}
+
+.reveal .slides section:has(> h1) {
+    top: 33% !important;
+    // width: 100vh !important;
+}

@@ -10,49 +10,47 @@
     margin-right: auto;
 }
 
-.reveal h1, .reveal h2 {
-    width: 100%;
-    // padding: 0.25em 20%;
-    // margin: 0% -20%;
+.reveal .slides{
+    // top: 0 !important;
+    width: 100% !important;
+    margin-bottom: 200px !important;
+    height: auto;
+    // padding-top: 0px !important;
 }
 
-// .reveal h1 {
-//     // background-color: $grove;
-//     // color: $pantherBlack;
-//     padding: 0.25em 20%;
-//     margin: 0% -20%;
-// }
-
-// .reveal h2 {
-//     // position:fixed;
-//     // top: 0px;
-//     // background-color: $chapmanRed;
-//     // color: $light;
-//     padding: 0.1em 20%;
-//     margin: 0% -20%;
-// }
-
-
-// section {
-//     display: flex !important;
-//     flex-direction: column;
-//     top: unset !important; 
-//     height: 100vh;
-// }
-
-// section p {
-//     margin-top: auto !important;
-//     margin-bottom: auto !important;
-// }
-
-
-/* Slide-specific vertical centering override */
-.reveal .slides section:has(> h2) {
-	top: 0 !important;
+.reveal .slides .slide {
+    // top: 0 !important;
+    width: 80% !important;
+    margin: 0 10% 200px !important;
+    // margin-bottom: 200px !important;
+    height: auto;
+    // padding-top: 0px !important;
 }
+
+div.slides section:not(.title-slide):not(#title-slide):not(.stack) {
+    padding-top: 0px;;
+}
+.reveal .slide aside {
+    bottom: auto;
+}
+
+// .reveal h1, .reveal h2 {
+//     width: 200%;
+//     // padding: 0.25em 20%;
+//     // margin: 0% -20%;
+//     margin-left: 0%;
+//     // padding-left: 100%;
+//     // top: 0px !important;
+//     margin-top: 0px !important;
+// }
+
+
+
 
 // .reveal .slides section ul, div {
 //     margin: 0 10%;
+//     top: 0 !important;
+//     bottom: 0 !important;
 // }
 
 
@@ -66,9 +64,7 @@
     z-index: 0 !important;
 }
 
-.reveal .slides {
-    margin-bottom: 200px !important;
-}
+
 
 .reveal a {
     text-decoration: revert;

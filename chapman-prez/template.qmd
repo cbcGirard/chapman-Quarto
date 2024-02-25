@@ -16,11 +16,25 @@ date: last-modified
 You can learn more about controlling the appearance of RevealJS output here: <https://quarto.org/docs/presentations/revealjs/>
 
 ::: header
-
 {{< fa calculator >}}
-
 :::
 
 
 ## Slide 1
 [test link](https://quarto.org/docs/presentations/revealjs/)
+
+
+## Slide 2
+- lots of content
+- to fit on one slide.
+- just
+- so much 
+- stuff
+- to cram in
+- ugggh...
+
+::: aside
+::: {.fragment .cloud}
+And add this guy to the mix
+:::
+:::

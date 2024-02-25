@@ -27,11 +27,6 @@ $dark:          $pillar !default;
 $quarto-body-color: $body-color !default;
 
 /*-- scss:rules --*/
-.reveal h1, h2 {
-    width: 100%;
-    // padding: 0.25em 20%;
-    // margin: 0% -20%;
-}
 
 .reveal h1 {
     background-color: $grove;
@@ -51,4 +46,12 @@ $quarto-body-color: $body-color !default;
     padding: 1rem; 
     border-radius: 2rem; 
     box-shadow: 0em 0em 2rem 2rem #fffffff0;
+}
+
+.reveal .slide-menu-button a {
+    color: $light !important;
+}
+
+div.progress {
+    color: $light !important;
 }

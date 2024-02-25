@@ -1,3 +1,5 @@
 /.luarc.json
 .DS_Store
 chapman-prez/_extensions/.DS_Store
+
+*.html
