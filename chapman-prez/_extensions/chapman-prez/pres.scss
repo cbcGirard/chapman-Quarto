@@ -18,7 +18,7 @@
     // padding-top: 0px !important;
 }
 
-.reveal .slides .slide {
+.reveal .slides .slide:not(.agenda-slide) {
     // top: 0 !important;
     width: 80% !important;
     margin: 0 10% 200px !important;
