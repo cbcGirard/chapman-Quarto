@@ -20,9 +20,15 @@
     padding-top: 0px !important;
 }
 
-.reveal .slides .slide {
+.reveal .slides .slide:not(.agenda-slide) {
     top: 0 !important;
     padding-top: 0px !important;
+}
+
+.agenda {
+    margin: auto;
+    padding: 20%;
+    width: fit-content;
 }
 
 section.slide h2, section.slide h1 {

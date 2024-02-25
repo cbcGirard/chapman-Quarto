@@ -5,6 +5,8 @@ format:
     # theme: pres-dark.scss
 author: CBC Girard
 date: last-modified
+# filters: 
+#   - reveal-auto-agenda
 ---
 
 ## Introduction
@@ -15,8 +17,8 @@ date: last-modified
 
 You can learn more about controlling the appearance of RevealJS output here: <https://quarto.org/docs/presentations/revealjs/>
 
-::: header
-{{< fa calculator >}}
+::: header-logo
+{{< iconify bi bullseye >}}
 :::
 
 
@@ -38,3 +40,6 @@ You can learn more about controlling the appearance of RevealJS output here: <ht
 And add this guy to the mix
 :::
 :::
+
+
+# {{< iconify bi lightbulb >}} demo section
