@@ -56,7 +56,7 @@ section.slide h2, section.slide h1 {
 	top: 0 !important;
 }
 
-.reveal .slides section:has(> h1) {
+.reveal .slides section:has(> h1):not(.agenda-slide) {
     top: 33% !important;
     // width: 100vh !important;
 }

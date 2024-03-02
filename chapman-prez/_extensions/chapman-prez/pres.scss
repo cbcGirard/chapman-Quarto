@@ -70,3 +70,7 @@ div.slides section:not(.title-slide):not(#title-slide):not(.stack) {
     text-decoration: revert;
 }
 
+
+div.progress {
+    height: 0.5rem !important;
+}
